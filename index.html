@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Edges</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/logo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <ion-icon name="close-outline" onclick="closemenu()"></ion-icon>
+                </ul>
+                <ion-icon name="menu-outline" onclick="openmenu()"></ion-icon>
+            </nav>
+            <div class="header-text">
+                <p>Content Writer</p>
+                <h1>Hi, I'm <span>Megha</span> <br>Sabharwal From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/videoedit.jpg" class="about-pic">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Welcome to my portfolio website! I'm a dedicated and versatile content writer with a passion for
+                        crafting compelling narratives and engaging copy.I specialize in delivering high-quality content
+                        that captivates readers and drives results.As a freelance content writer, I've had the privilege
+                        of collaborating with a diverse range of clients, helping them achieve their goals through
+                        effective communication. Whether it's creating captivating blog posts, informative articles,
+                        persuasive marketing copy, or engaging social media content, I take pride in tailoring my words
+                        to suit each client's unique voice and audience.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Work Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>Web Content Production</li>
+                            <li>SEO Copywriting</li>
+                            <li>Content Strategy</li>
+                            <li>Social Media Blogging</li>
+                            <li>Team Management</li>
+                            <li>Analysis</li>
+                            <li>Link Building</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Web Content Writer </span><br>(Freelance 2015-Present)</li>
+                            <li><span>Assignment Writer</span><br>Numen Services Private Limited(April 2014-Present)
+                            </li>
+                            <li><span>Freelance Writer</span><br>Zenscale(Feb 2023-Apr 2023)</li>
+                            <li><span>Web Content Writer</span><br>Wowfas Fashions(Jul 2022-Dec 2022)</li>
+                            <li><span>Freelance Academic Writer</span><br>Paperpedia Pvt Ltd(Aug 2016-Jul 2022)</li>
+                            <li><span>Freelance Academic Writer</span><br>Case Studies London Limited(Jan 2015-Jul 2022)
+                            </li>
+                            <li><span>SME-English (WFH)</span><br>Meritnation(Jul 2015-Sep 2015)</li>
+                            <li><span>Freelance Blogger</span><br>EDU Niche(Feb 2014- Aug 2014)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>BSc Computer Science</span><br>GNDU (2010-2013)</li>
+                            <li><span>MPA Social Sciences</span><br>Indira Gandhi National Open University(2013-2015)
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Our Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Academic Writing</h2>
+
+                </div>
+                <div>
+                    <h2>SEO articles</h2>
+                </div>
+                <div>
+                    <h2>Assignments</h2>
+                </div>
+                <div>
+                    <h2>Research Reports</h2>
+                </div>
+                <div>
+                    <h2>Thesis & Research Paper</h2>
+                </div>
+                <div>
+                    <h2>Blogs Writing</h2>
+                </div>
+                <div>
+                    <h2>Copywriting</h2>
+                </div>
+                <div>
+                    <h2>Product Description</h2>
+                </div>
+                <div>
+                    <h2>Statement of Purposes(For Visa)</h2>
+                </div>
+                <div>
+                    <h2>Website Content</h2>
+                </div>
+                <div>
+                    <h2>Proofreading & Editing</h2>
+                </div>
+                <div>
+                    <h2>Resume Writing</h2>
+                </div>
+                <div>
+                    <h2>Cover Letter</h2>
+                </div>
+                <div>
+                    <h2>Job Description</h2>
+                </div>
+                <div>
+                    <h2>Articles Writing</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Why Us Section -->
+    <div class="why-us">
+        <div class="container">
+            <h1 class="sub-title">Why To Choose Us?</h1>
+            <div class="keypoints">
+                <h3>Expertise in Diverse Niches</h3><br>
+                <p>My expertise in a wide array of niches, ensuring that your content resonates with your target
+                    audience, regardless of the industry.</p>
+            </div>
+            <div class="keypoints">
+                <h3>Tailored to Your Voice</h3><br>
+                <p> We take the time to understand your brand's unique voice and style, ensuring that every piece of
+                    content we create is a seamless extension of your brand identity.</p>
+            </div>
+            <div class="keypoints">
+                <h3>SEO-Optimized</h3><br>
+                <p>We understand the importance of search engine visibility. Our content is not only engaging but also
+                    optimized to improve your online presence and search engine rankings.</p>
+            </div>
+            <div class="keypoints">
+                <h3>Engaging and Captivating</h3><br>
+                <p> Our content is crafted to captivate readers from the very first sentence, keeping them hooked and
+                    eager to consume more.</p>
+            </div>
+            <div class="keypoints">
+                <h3>Custom Solutions</h3><br>
+                <p>No two clients are the same, and neither are their content needs. We offer tailor-made solutions to
+                    meet your specific goals and requirements.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><ion-icon name="paper-plane-outline"></ion-icon>megha.ms92@gmail.com</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/writer.megha?igsh=ZG0yZmVvZWUyeWVx"><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a href="https://www.linkedin.com/in/writermegha/"><ion-icon name="logo-linkedin"></ion-icon></a>
+                        <a href="https://youtube.com/@meghawriter?si=J7zrEBYKir-qnjqC"><ion-icon name="logo-youtube"></ion-icon></a>
+                    </div>
+                   
+                </div>
+                <div class="contact-right">
+                    <h1>CLICK BELOW TO GET CONTACT FORM</h1>
+                   <a href="https://forms.gle/nUrDhQucDJ3v7eNHA"><button class="form-btn">Click Here</button></a> 
+                </div>
+                
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Creative Edge. All rights reserved. </p>
+        </div>
+    </div>
+   
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemeu = document.getElementById('sidemenu');
+        function openmenu(){
+            sidemeu.style.right = '0';
+        }
+        function closemenu(){
+            sidemeu.style.right = '-200px';
+        }
+    </script>
+</body>
+
+</html>
